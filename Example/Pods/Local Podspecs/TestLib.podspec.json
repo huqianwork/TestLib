@@ -1,0 +1,22 @@
+{
+  "name": "TestLib",
+  "version": "0.1.0",
+  "summary": "A short description of TestLib.TestDemo",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huqianwork/TestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huqianwork": "1593223721@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/huqianwork/TestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestLib/Classes/**/*"
+}

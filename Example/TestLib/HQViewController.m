@@ -7,6 +7,7 @@
 //
 
 #import "HQViewController.h"
+#import <TestViewController.h>
 
 @interface HQViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"First test Demo!!!");
+    
+    TestViewController *testVC = [[TestViewController alloc] init];
+    
+    [self.view addSubview:testVC.view];
+    
+    [testVC showLog];
+    testVC.name = @"我是外部调用了！";
+    [testVC showLog];
 }
 
 - (void)didReceiveMemoryWarning
